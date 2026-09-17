@@ -6,11 +6,11 @@ import Reveal from "./Reveal";
 
 export function Hero() {
   return (
-    <section
-      id="home"
-      className="relative overflow-hidden mt-16 pt-12 pb-16 md:pt-20 md:pb-28 bg-gradient-to-b from-sky-50/50 via-white to-white min-h-[calc(100vh-80px)] flex flex-col justify-center items-center"
-    >
-      <Reveal>
+    <Reveal>
+      <section
+        id="home"
+        className="relative overflow-hidden mt-16 pt-12 pb-16 md:pt-20 md:pb-28 bg-gradient-to-b from-sky-50/50 via-white to-white min-h-[calc(100vh-80px)] flex flex-col justify-center items-center"
+      >
         <div className="max-w-7xl mx-auto px-6 relative w-full flex flex-col items-center">
           {/* --- FLOATING WIDGET 1: TOP LEFT (Webhook) --- */}
           <motion.div
@@ -279,7 +279,7 @@ export function Hero() {
             </div>
           </div>
         </div>
-      </Reveal>
-    </section>
+      </section>
+    </Reveal>
   );
 }
