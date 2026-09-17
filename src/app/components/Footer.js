@@ -32,7 +32,8 @@ export function Footer() {
                   <span className="w-1.5 h-1.5 bg-slate-900 rounded-sm"></span>
                 </div>
                 <span className="text-xl font-extrabold tracking-tight text-slate-900">
-                  <span className="text-sm">F</span>FLOW
+                  <span className="text-sm md:text-base mr-0.5">F</span>
+                  <span>FLOW</span>
                   <span className="text-blue-600">DECK</span>
                 </span>
               </div>
